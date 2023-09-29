@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "roboto";
+    src: url(./../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "roboto_b";
+    src: url(./../fonts/Roboto-Bold.ttf);
+}
+
+body {
+    font-family: "roboto";
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.hero_wrapper {
+    background-image: url("./../img/ilustracion_people.png"), url("./../img/ilustracion1.png");
+    background-position: right top, right top;
+    background-size: contain, contain;
+    background-repeat: no-repeat;
+    height: 800px;
+    padding-left: 96px;
+}
+
+.Logo {
+    padding: 24px 1150px 0 0;
+}
+
+.Logo > h3 {
+    font-family: "roboto_b";
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.Logo > p {
+    font-size: 12px;
+}
+
+.art_hero {
+    margin-top: 460px;
+    width: 500px;
+    margin-left: 7%;
+}
+
+h1 {
+    font-size: 3.375rem;
+    line-height: 4.05rem;
+}
+
+.art_hero > p {
+    font-size: 1.125rem;
+    line-height: 2;
+    padding-bottom: 24px;
+}
+
+.art_hero > p::after {
+    content: "🚀";
+    height: 14px;
+}
+
+.art_hero > a {
+    font-size: 0.875rem;
+    color: #FF3571;
+    text-transform: uppercase;
+    font-family: "roboto_b";
+}
+
+
+.bilderblock {
+    margin-block: 80px;
+}
+
+/* ==== MAIN ===== */
+
+h2 {
+    font-size: 2.375rem;
+    line-height: 2.85rem;
+    font-family: "roboto_b";
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 2.25rem;
+}
+
+.top_wrapper {
+    margin-left: 155px;
+    margin-right: 300px;
+    margin-block: 160px;
+}
+
+.img_idea {
+    display: inline-block;
+}
+
+.idea {
+    display: flex;
+    justify-content: space-between;
+}
+
+.idea > h2 {
+    flex-basis: 295px;
+}
+
+.idea > p {
+    flex-basis: 600px;
+}
+
+.top_wrapper > h2 {
+    width: 660px;
+    margin-left: 150px;
+    margin-block: 150px;
+}
+
+/* ==== Tipps ==== */
+
+h5 {
+    font-size: 1.17rem;
+    font-family: "roboto_b";
+    padding-bottom: 20px;
+}
+
+.tipps {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 160px;
+    row-gap: 120px;
+    margin-bottom: 200px;
+}
+
+.box_wrap {
+    padding-left: 3rem;
+    padding-top: 0.5rem;
+}
+
+.gelb {
+    flex-basis: 400px;
+    background-image: url("./../img/title02.svg");
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+
+.grün {
+    flex-basis: 400px;
+    background-image: url("./../img/title04.svg");
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+
+.lila {
+    flex-basis: 400px;
+    background-image: url("./../img/title01.svg");
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+
+.rot {
+    flex-basis: 400px;
+    background-image: url("./../img/title03.svg");
+    background-size: 32px;
+    background-repeat: no-repeat;
+}
+
+/* === Are you ready? ==== */
+
+h4 {
+    font-size: 1.75rem;
+    font-family: "roboto_b";
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.ready {
+    text-align: center;
+}
+
+.ready > p {
+    display: inline-block;
+    width: 550px;
+    line-height: 1.1375rem;
+    text-align: center;
+}
+
+/* ==== Nummern ==== */
+
+.nummer {
+    font-size: 3.25rem;
+    font-family: "roboto_b";
+    color: #ddd;
+}
+
+
+
