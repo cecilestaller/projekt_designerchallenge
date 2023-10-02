@@ -17,10 +17,12 @@
 body {
     font-family: "roboto";
     max-width: 100%;
+    background-color: #fff;
 }
 
 a {
     color: inherit;
+    display: inline-block;
     text-decoration: none;
 }
 
@@ -112,6 +114,7 @@ p {
 .idea {
     display: flex;
     justify-content: space-between;
+    margin-block: 240px;
 }
 
 .idea > h2 {
@@ -133,7 +136,8 @@ p {
 h5 {
     font-size: 1.17rem;
     font-family: "roboto_b";
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
+    margin-block: 24px;
 }
 
 .tipps {
@@ -189,12 +193,13 @@ h4 {
 
 .ready {
     text-align: center;
+    margin-block: 200px;
 }
 
 .ready > p {
     display: inline-block;
     width: 550px;
-    line-height: 1.1375rem;
+    line-height: 1.5rem;
     text-align: center;
 }
 
@@ -204,7 +209,81 @@ h4 {
     font-size: 3.25rem;
     font-family: "roboto_b";
     color: #ddd;
+    margin-block: 24px;
+}
+
+.bottom_wrapper {
+    margin-inline: 144px;
 }
 
 
+.img_left {
+    background: url("./../img/step01.png")left / contain no-repeat;
+    width: 100%;
+    padding-left: 500px;
+    margin-block: 180px;
+    height: 400px;
+}
 
+.article {
+    width: 36rem;
+}
+
+.article2 {
+    margin-left: auto;
+}
+
+.img_right {
+    background: url("./../img/step02.png") right / contain no-repeat;
+    margin-block: 180px;
+    height: 400px;
+}
+
+.img_left2 {
+    background: url("./../img/step03.png")left / contain no-repeat;
+    padding-left: 500px;
+    margin-block: 180px;
+    height: 400px;
+}
+
+
+.img_right2 {
+    background: url("./../img/step04.png") right / contain no-repeat;
+    margin-block: 180px;
+    height: 400px;
+}
+
+/* ===== footer ==== */
+
+.subscribe {
+    width: 100%;
+    text-align: center;
+    margin-block: 200px;
+}
+
+.feld {
+    width: 650px;
+    height: 80px;
+    background-color: #fff;
+    color: #757575;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.subscribe > a {
+    background-color: #FF3571;
+    color: #fff;
+    padding-inline: 80px;
+    padding-block: 18px;
+    margin-block: 36px;
+}
+
+footer {
+    margin-inline: 144px;
+}
+
+footer > img {
+    display: inline;
+}
